@@ -11,12 +11,12 @@ class BinarySearchTree
 {
 	private:
 	unsigned int data;
-	BinarySearchTree *r; 
 	BinarySearchTree *left; 
 	BinarySearchTree *right; 
 	BinarySearchTree *parent; 
 	
 public:
+	BinarySearchTree *r;
 	void Add(unsigned int new_data, BinarySearchTree *&root);
 	void Search(BinarySearchTree *root);
 	void print(BinarySearchTree *root);
