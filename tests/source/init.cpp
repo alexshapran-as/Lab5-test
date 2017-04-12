@@ -7,3 +7,9 @@ SCENARIO("Add") {
     
     REQUIRE( rv == 0);
 }
+SCENARIO("print") {
+    BinarySearchTree r;
+    int rv = r.data;
+    
+    REQUIRE( rv == 10);
+}
