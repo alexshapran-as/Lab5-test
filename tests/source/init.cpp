@@ -11,5 +11,5 @@ SCENARIO("print") {
     BinarySearchTree r;
     int rv = r.data;
     
-    REQUIRE( rv == 10);
+    REQUIRE( rv == 0);
 }
