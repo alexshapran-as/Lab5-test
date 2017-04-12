@@ -3,8 +3,8 @@
 
 SCENARIO("Add") {
     int x = 10;
-    BinarySearchTree *r;
-    int rv = r->BinarySearchTree::Add( x, r );
+    BinarySearchTree r;
+    int rv = r.data;
     
-    REQUIRE( rv == 0);
+    REQUIRE( rv == 10);
 }
