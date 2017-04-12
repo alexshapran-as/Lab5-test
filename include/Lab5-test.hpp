@@ -19,8 +19,8 @@ public:
 	unsigned int data;
 	BinarySearchTree *r;
 	void Add(unsigned int new_data, BinarySearchTree *&root);
-	void Search(BinarySearchTree *root);
-	//void print(BinarySearchTree *root);
+	//void Search(BinarySearchTree *root);
+	void print(BinarySearchTree *root);
 	//void Deletion(BinarySearchTree *root);
 	//BinarySearchTree* findMaxNode(BinarySearchTree *root);
 	//void removeNode(BinarySearchTree *root, int number, BinarySearchTree *parent);
