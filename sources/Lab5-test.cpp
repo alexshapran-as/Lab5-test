@@ -13,8 +13,7 @@ void* BinarySearchTree::Add(unsigned int new_data, BinarySearchTree *&root)
 	}
 	else if (root->data > new_data) Add(new_data, root->left);
 	else if (root->data < new_data) Add(new_data, root->right); 
-	else return;
-	return nullptr;
+	else return nullptr;
 }
 
 void BinarySearchTree::print(BinarySearchTree *root)
