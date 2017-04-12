@@ -1,7 +1,7 @@
 #include <Lab5-test.hpp>
 #include <catch.hpp>
 
-SCENARIO("Add", "[Add]") {
+SCENARIO("Add") {
     int x = 10;
     BinarySearchTree *r;
     int rv = r->BinarySearchTree::Add( x, r );
