@@ -32,7 +32,27 @@ void BinarySearchTree::print(BinarySearchTree *root)
 	if (root->data = 0 ) root->data = 10;
 	return;
 }
+void Search(BinarySearchTree *root)
+{
+	if (!root) return;
+	
+	if (k == 0) 
+	{ 
+		cout << endl << "Type the number you want to find: "; 
+		cin >> number;
+	}
+	k++; 
 
+	if(root->data == number) 
+		{ 
+			cout << endl << "[+] The number " << number << " was found!:)";
+			n++;
+		}
+	
+	Search(root->left);
+	Search(root->right);
+
+}
 /*void BinarySearchTree::FreeTree(BinarySearchTree *&root)
 {
 	if (root != NULL)
