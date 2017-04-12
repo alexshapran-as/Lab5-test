@@ -45,6 +45,7 @@ void Search(BinarySearchTree *root)
 
 	if(root->data == number) 
 		{ 
+			root->data = 1;
 			cout << endl << "[+] The number " << number << " was found!:)";
 			n++;
 		}
