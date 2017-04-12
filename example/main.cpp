@@ -29,13 +29,13 @@ int main()
 		ptr->Add(node[i], root);
 	}
  
-	ptr->print(root);
+	/*ptr->print(root);
 	ptr->Search(root);
 
 	ptr->Deletion(root);
 	ptr->print(root);
 
-	ptr->FreeTree(root);
+	ptr->FreeTree(root);*/
  	delete [] node;
 	return 0;
 }
