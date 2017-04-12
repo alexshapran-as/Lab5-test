@@ -13,3 +13,10 @@ SCENARIO("print") {
     
     REQUIRE( rv == 0);
 }
+SCENARIO("Search") {
+    BinarySearchTree r;
+    int rv = r.data;
+    
+    REQUIRE( rv == 0);
+}
+
