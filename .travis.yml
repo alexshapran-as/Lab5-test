@@ -12,6 +12,11 @@ matrix:
           sources: &sources
             - llvm-toolchain-precise
             - ubuntu-toolchain-r-test
+            # safelist
+branches:
+  only:
+  - master
+  - stable
 script:
 - mkdir build
 - cd build
