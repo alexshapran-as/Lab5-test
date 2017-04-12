@@ -9,13 +9,11 @@ unsigned int n = 0;
 
 class BinarySearchTree
 {
-	private:
-	
+
+public:
 	BinarySearchTree *left; 
 	BinarySearchTree *right; 
 	BinarySearchTree *parent; 
-	
-public:
 	unsigned int data;
 	BinarySearchTree *r;
 	void Add(unsigned int new_data, BinarySearchTree *&root);
