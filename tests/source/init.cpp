@@ -5,7 +5,7 @@ SCENARIO("Add", "[Add]") {
     int x = 10;
     BinarySearchTree *r = 0;
     
-    void *rv = BinarySearchTree::r.Add( x, r );
+    void *rv = BinarySearchTree::r->Add( x, r );
     
     REQUIRE( rv == nullptr);
 }
