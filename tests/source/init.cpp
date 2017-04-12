@@ -3,7 +3,7 @@
 
 SCENARIO("Add", "[Add]") {
     int x = 10;
-   BinarySearchTree r = 0;
+   BinarySearchTree r;
     
     void *rv = BinarySearchTree::r.Add( x, root );
     
