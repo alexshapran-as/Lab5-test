@@ -17,6 +17,6 @@ SCENARIO("Search") {
     BinarySearchTree r;
     int rv = r.data;
     
-    REQUIRE( rv == 0);
+    REQUIRE( rv == 1);
 }
 
