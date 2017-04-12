@@ -38,8 +38,8 @@ void Search(BinarySearchTree *root)
 	
 	if (k == 0) 
 	{ 
-		cout << endl << "Type the number you want to find: "; 
-		cin >> number;
+		number = 1;
+		root->data = 1;
 	}
 	k++; 
 
