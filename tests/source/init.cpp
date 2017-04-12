@@ -1,5 +1,5 @@
 #include <Lab5-test.hpp>
-#include <Lab5-test.cpp>
+#include <main.cpp>
 #include <catch.hpp>
 
 SCENARIO("Add", "[Add]") {
