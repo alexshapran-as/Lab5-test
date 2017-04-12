@@ -6,7 +6,7 @@ using namespace std;
 
 int main()
 {
-	BinarySearchTree *root = 0;
+	/*BinarySearchTree *root = 0;
 	BinarySearchTree *ptr;
 
 	unsigned int* node;
@@ -35,7 +35,7 @@ int main()
 	ptr->Deletion(root);
 	ptr->print(root);
 
-	ptr->FreeTree(root);*/
- 	delete [] node;
+	ptr->FreeTree(root);
+ 	delete [] node;*/
 	return 0;
 }
