@@ -7,17 +7,16 @@ int number = 0;
 unsigned int k = 0;
 unsigned int n = 0;
 
-template <class Type>
 class BinarySearchTree
 {
 	private:
-	Type data;
+	unsigned int data;
 	BinarySearchTree *left; 
 	BinarySearchTree *right; 
 	BinarySearchTree *parent; 
 	
 public:
-	void Add(Type new_data, BinarySearchTree *&root);
+	void Add(unsigned int new_data, BinarySearchTree *&root);
 	void Search(BinarySearchTree *root);
 	void print(BinarySearchTree *root);
 	void Deletion(BinarySearchTree *root);
