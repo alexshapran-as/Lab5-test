@@ -3,7 +3,7 @@
 
 SCENARIO("Add") {
     int x = 10;
-    BinarySearchTree *r;
+    BinarySearchTree *r = 0;
     
     void *rv = BinarySearchTree::Add( x, r );
     
