@@ -1,6 +1,6 @@
 #include "Lab5-test.hpp"
 
-void* BinarySearchTree::Add(unsigned int new_data, BinarySearchTree *&root)
+int BinarySearchTree::Add(unsigned int new_data, BinarySearchTree *&root)
 {
 	if (!root)
 	{
@@ -9,11 +9,11 @@ void* BinarySearchTree::Add(unsigned int new_data, BinarySearchTree *&root)
 		root->parent = root;
 		root->left = 0;
 		root->right = 0;
-		return nullptr;
+		return 0;
 	}
 	else if (root->data > new_data) Add(new_data, root->left);
 	else if (root->data < new_data) Add(new_data, root->right); 
-	else return nullptr;
+	else return 0;
 }
 
 void BinarySearchTree::print(BinarySearchTree *root)
