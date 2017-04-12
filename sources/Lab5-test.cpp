@@ -1,6 +1,6 @@
 #include "Lab5-test.hpp"
 
-int BinarySearchTree::Add(unsigned int new_data, BinarySearchTree *&root)
+void BinarySearchTree::Add(unsigned int new_data = 10, BinarySearchTree *&root)
 {
 	if (!root)
 	{
