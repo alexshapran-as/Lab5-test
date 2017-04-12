@@ -17,7 +17,7 @@ class BinarySearchTree
 	
 public:
 	BinarySearchTree *r;
-	int Add(unsigned int new_data, BinarySearchTree *&root);
+	void Add(unsigned int new_data, BinarySearchTree *&root);
 	void Search(BinarySearchTree *root);
 	void print(BinarySearchTree *root);
 	void Deletion(BinarySearchTree *root);
