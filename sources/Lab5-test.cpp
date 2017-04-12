@@ -16,7 +16,7 @@ void BinarySearchTree::Add(unsigned int new_data, BinarySearchTree *&root)
 	else return;
 }
 
-void BinarySearchTree::print(BinarySearchTree *root)
+/*void BinarySearchTree::print(BinarySearchTree *root)
 {
 	if (!root) return; 
 	
@@ -43,4 +43,4 @@ void BinarySearchTree::FreeTree(BinarySearchTree *&root)
 	}
 	
 	return;
-}
+}*/
