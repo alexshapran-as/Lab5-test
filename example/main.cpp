@@ -6,8 +6,8 @@ using namespace std;
 
 int main()
 {
-	BinarySearchTree<unsigned int> *root = 0;
-	BinarySearchTree<unsigned int> *ptr;
+	BinarySearchTree *root = 0;
+	BinarySearchTree *ptr;
 
 	unsigned int* node;
 	unsigned int size = 0;
