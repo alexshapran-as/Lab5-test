@@ -7,13 +7,13 @@ void BinarySearchTree::Add(unsigned int new_data = 10, BinarySearchTree *&root)
 		root = new BinarySearchTree;
 		root->data = new_data;
 		root->parent = root;
-		root->left = 0;
-		root->right = 0;
-		return 0;
+		root->left;
+		root->right;
+		return;
 	}
 	else if (root->data > new_data) Add(new_data, root->left);
 	else if (root->data < new_data) Add(new_data, root->right); 
-	else return 0;
+	else return;
 }
 
 void BinarySearchTree::print(BinarySearchTree *root)
