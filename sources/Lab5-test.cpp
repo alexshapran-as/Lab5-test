@@ -29,7 +29,7 @@ void BinarySearchTree::print(BinarySearchTree *root)
 	print(root->left);
  	tabs--;
 	
-	if (root->data = 0 ) tabs = 0;
+	if (root->data = 0 ) root->data = 10;
 	return;
 }
 
