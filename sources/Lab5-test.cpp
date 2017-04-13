@@ -32,7 +32,7 @@ void BinarySearchTree::print(BinarySearchTree *root)
 	if (root->data = 0 ) root->data = 10;
 	return;
 }
-void Search(BinarySearchTree *root)
+int BinarySearchTree::Search(BinarySearchTree *root)
 {
 	if (!root) return;
 	
@@ -52,6 +52,8 @@ void Search(BinarySearchTree *root)
 	
 	//Search(root->left);
 	//Search(root->right);
+	
+	return root->data;
 
 }
 /*void BinarySearchTree::FreeTree(BinarySearchTree *&root)
