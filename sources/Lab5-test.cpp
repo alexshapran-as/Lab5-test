@@ -53,8 +53,8 @@ int FreeTree(int check4, BinarySearchTree *&root)
 {
 	if (root != NULL)
 	{
-		FreeTree(root->left);
-		FreeTree(root->right);
+		FreeTree(0, root->left);
+		FreeTree(0, root->right);
 		delete root;
 		root = NULL;
 	}
