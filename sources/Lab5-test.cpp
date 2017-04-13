@@ -49,3 +49,15 @@ int Deletion(int check3, BinarySearchTree *root)
 
 	
 }
+int FreeTree(int check4, BinarySearchTree *&root)
+{
+	if (root != NULL)
+	{
+		FreeTree(root->left);
+		FreeTree(root->right);
+		delete root;
+		root = NULL;
+	}
+	
+	return check4;
+}
