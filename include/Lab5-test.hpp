@@ -15,7 +15,7 @@ public:
 	BinarySearchTree *right; 
 	BinarySearchTree *parent; 
 	unsigned int data;
-	BinarySearchTree *r;
+	//BinarySearchTree *r;
 	int Add(unsigned int new_data, BinarySearchTree *&root);
 	//int Search(BinarySearchTree *root);
 	//void print(BinarySearchTree *root);
