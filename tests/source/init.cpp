@@ -21,5 +21,5 @@ SCENARIO("Search") {
     int rv = r.Search(12, root);
     
     REQUIRE( rv == 12);
-}*/
+}
 
