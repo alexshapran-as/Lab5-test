@@ -3,9 +3,10 @@
 
 SCENARIO("Add") {
     BinarySearchTree r;
-    int rv = r.check1;
+    BinarySearchTree* root;
+    int rv = r.Add(10, root);
     
-    REQUIRE( rv == 1);
+    REQUIRE( rv == 10);
 }
 /*SCENARIO("print") {
     BinarySearchTree r;
