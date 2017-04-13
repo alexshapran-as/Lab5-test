@@ -3,8 +3,8 @@
 using namespace std;
  
 //int tabs = 0;
-//int number;
-//unsigned int k = 0;
+int number;
+unsigned int k = 0;
 //unsigned int n = 0;
 
 class BinarySearchTree
