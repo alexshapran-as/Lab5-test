@@ -9,11 +9,11 @@ int BinarySearchTree::Add(unsigned int new_data, BinarySearchTree *&root)
 		root->parent = root;
 		root->left;
 		root->right;
-		return 0;
+		return root->data;
 	}
 	else if (root->data > new_data) Add(new_data, root->left);
 	else if (root->data < new_data) Add(new_data, root->right); 
-	else return 0;
+	else return root->data;
 }
 
 /*void BinarySearchTree::print(BinarySearchTree *root)
