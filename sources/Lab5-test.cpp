@@ -7,8 +7,6 @@ int BinarySearchTree::Add(unsigned int new_data, BinarySearchTree *&root)
 		root = new BinarySearchTree;
 		root->data = new_data;
 		root->parent = root;
-		root->left;
-		root->right;
 		return root->data;
 	}
 	else if (root->data > new_data) Add(new_data, root->left);
@@ -53,8 +51,6 @@ int FreeTree(int check4, BinarySearchTree *&root)
 {
 	if (root != NULL)
 	{
-		FreeTree(0, root->left);
-		FreeTree(0, root->right);
 		delete root;
 		root = NULL;
 	}
