@@ -18,7 +18,7 @@ int BinarySearchTree::Add(unsigned int new_data, BinarySearchTree *&root)
 
 int BinarySearchTree::print(int check1, BinarySearchTree *root)
 {
-	if (!root) return 0; 
+	//if (!root) return 0; 
 	if (root->data = 10 ) check1 = 11;
 	
 	return check1;
