@@ -4,15 +4,15 @@
 SCENARIO("Add") {
     BinarySearchTree r;
     BinarySearchTree* root;
-    root = new BinarySearchTree;
+    root = ( BinarySearchTree*)malloc(sizeof( BinarySearchTree));
     int rv = r.Add(10, root);
     
     REQUIRE( rv == 10);
 }
 SCENARIO("print") {
     BinarySearchTree r;
-    BinarySearchTree* root ;
-    root = new BinarySearchTree;
+    BinarySearchTree* root ( BinarySearchTree*)malloc(sizeof( BinarySearchTree));
+    root = ;
     int rv = r.print(11, root);
     
     REQUIRE( rv == 11);
