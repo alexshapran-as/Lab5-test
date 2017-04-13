@@ -15,10 +15,11 @@ SCENARIO("print") {
     
     REQUIRE( rv == 11);
 }
-/*SCENARIO("Search") {
+SCENARIO("Search") {
     BinarySearchTree r;
-    int rv = r.Search;
+    BinarySearchTree* root;
+    int rv = r.Search(12, root);
     
-    REQUIRE( rv == 1);
+    REQUIRE( rv == 12);
 }*/
 
