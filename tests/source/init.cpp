@@ -3,8 +3,8 @@
 
 SCENARIO("Add") {
     BinarySearchTree r;
-    root = new BinarySearchTree;
     BinarySearchTree* root;
+    root = new BinarySearchTree;
     int rv = r.Add(10, root);
     
     REQUIRE( rv == 10);
