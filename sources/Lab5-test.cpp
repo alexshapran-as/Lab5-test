@@ -23,13 +23,12 @@ int BinarySearchTree::print(int check1, BinarySearchTree *root)
 	
 	return check1;
 }
-/*int BinarySearchTree::Search(BinarySearchTree *root)
+int BinarySearchTree::Search(int check2, BinarySearchTree *root)
 {
-	if (!root) return;
+	if (!root) return check2;
 	
 	if (k == 0) 
 	{ 
-		number = 1;
 		root->data = 1;
 	}
 	k++; 
@@ -37,12 +36,8 @@ int BinarySearchTree::print(int check1, BinarySearchTree *root)
 	if(root->data == number) 
 		{ 
 			root->data = 1;
-			//cout << endl << "[+] The number " << number << " was found!:)";
 			n++;
 		}
-	
-	//Search(root->left);
-	//Search(root->right);
 	
 	return root->data;
 
