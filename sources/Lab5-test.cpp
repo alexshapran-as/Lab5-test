@@ -16,23 +16,14 @@ int BinarySearchTree::Add(unsigned int new_data, BinarySearchTree *&root)
 	else return root->data;
 }
 
-/*void BinarySearchTree::print(BinarySearchTree *root)
+int BinarySearchTree::print(int check1, BinarySearchTree *root)
 {
-	if (!root) return; 
+	if (!root) return 0; 
+	if (root->data = 10 ) check1 = 11;
 	
-	tabs++; 
-	//print(root->right);
- 
-	for (int i = 0; i < tabs; i++) cout << "- "; 
-	cout << root->data << endl;
-
-	//print(root->left);
- 	//tabs--;
-	
-	if (root->data = 0 ) root->data = 10;
-	return;
+	return check1;
 }
-int BinarySearchTree::Search(BinarySearchTree *root)
+/*int BinarySearchTree::Search(BinarySearchTree *root)
 {
 	if (!root) return;
 	
