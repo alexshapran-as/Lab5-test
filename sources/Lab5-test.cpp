@@ -35,15 +35,18 @@ int BinarySearchTree::Search(int check2, BinarySearchTree *root)
 	return root->data;
 
 }
-/*void BinarySearchTree::FreeTree(BinarySearchTree *&root)
+int Deletion(int check3, BinarySearchTree *root)
 {
-	if (root != NULL)
-	{
-		FreeTree(root->left);
-		FreeTree(root->right);
-		delete root;
-		root = NULL;
-	}
+	if (!root) return check3;
 	
-	return;
-}*/
+	cout << endl << endl << "Type the node you want to delete: "; 
+	cin >> number;
+
+	if (root->data == check3) 
+		{ 
+			cout << endl << "[-] Error: You are trying to remove the root of the tree!" << endl;
+			return 0;
+		}
+
+	
+}
