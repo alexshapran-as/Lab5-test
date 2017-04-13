@@ -3,11 +3,11 @@
 
 SCENARIO("Add") {
     BinarySearchTree r;
-    int rv = r.data;
+    int rv = r.check1;
     
-    REQUIRE( rv == 0);
+    REQUIRE( rv == 1);
 }
-SCENARIO("print") {
+/*SCENARIO("print") {
     BinarySearchTree r;
     int rv = r.data;
     
@@ -18,5 +18,5 @@ SCENARIO("Search") {
     int rv = r.Search;
     
     REQUIRE( rv == 1);
-}
+}*/
 
