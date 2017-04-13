@@ -13,9 +13,9 @@ SCENARIO("print") {
     
     REQUIRE( rv == 0);
 }
-SCENARIO("Search", "[Search]") {
+SCENARIO("Search") {
     BinarySearchTree r;
-    int rv = r.data;
+    int rv = r.Search;
     
     REQUIRE( rv == 1);
 }
