@@ -29,4 +29,11 @@ SCENARIO("Deletionh") {
     
     REQUIRE( rv == 13);
 }
+SCENARIO("FreeTree") {
+    BinarySearchTree r;
+    BinarySearchTree* root;
+    int rv = r.Search(14, root);
+    
+    REQUIRE( rv == 14);
+}
 
