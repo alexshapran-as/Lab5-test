@@ -3,6 +3,7 @@
 
 SCENARIO("Add") {
     BinarySearchTree r;
+    root = new BinarySearchTree;
     BinarySearchTree* root;
     int rv = r.Add(10, root);
     
@@ -10,7 +11,8 @@ SCENARIO("Add") {
 }
 SCENARIO("print") {
     BinarySearchTree r;
-    BinarySearchTree* root = 0;
+    BinarySearchTree* root ;
+    root = new BinarySearchTree;
     int rv = r.print(11, root);
     
     REQUIRE( rv == 11);
