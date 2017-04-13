@@ -8,13 +8,14 @@ SCENARIO("Add") {
     
     REQUIRE( rv == 10);
 }
-/*SCENARIO("print") {
+SCENARIO("print") {
     BinarySearchTree r;
-    int rv = r.data;
+    BinarySearchTree* root;
+    int rv = r.print(11, root);
     
-    REQUIRE( rv == 0);
+    REQUIRE( rv == 11);
 }
-SCENARIO("Search") {
+/*SCENARIO("Search") {
     BinarySearchTree r;
     int rv = r.Search;
     
