@@ -41,7 +41,7 @@ int BinarySearchTree::Search(int check2, BinarySearchTree *root)
 	
 	return root->data;
 
-}*/
+}
 /*void BinarySearchTree::FreeTree(BinarySearchTree *&root)
 {
 	if (root != NULL)
