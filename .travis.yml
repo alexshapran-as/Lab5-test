@@ -1,4 +1,10 @@
 language: generic
+addons:
+    apt:
+        sources: &sources
+            - ubuntu-toolchain-r-test
+            - llvm-toolchain-precise-3.7
+            - llvm-toolchain-precise-3.8
 os:
 - osx
 matrix:
