@@ -31,12 +31,10 @@ int BinarySearchTree::Search(int check2, BinarySearchTree *root)
 	{ 
 		root->data = 1;
 	}
-	k++; 
 
 	if(root->data == number) 
 		{ 
 			root->data = 1;
-			n++;
 		}
 	
 	return root->data;
