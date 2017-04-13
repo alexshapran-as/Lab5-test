@@ -10,7 +10,7 @@ SCENARIO("Add") {
 }
 SCENARIO("print") {
     BinarySearchTree r;
-    BinarySearchTree* root);
+    BinarySearchTree* root;
     int rv = r.print(11, root);
     
     REQUIRE( rv == 11);
