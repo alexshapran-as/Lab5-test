@@ -26,13 +26,8 @@ int BinarySearchTree::print(int check1, BinarySearchTree *root)
 int BinarySearchTree::Search(int check2, BinarySearchTree *root)
 {
 	if (!root) return check2;
-	
-	if (k == 0) 
-	{ 
-		root->data = 1;
-	}
 
-	if(root->data == number) 
+	if(root->data >= 0) 
 		{ 
 			root->data = 1;
 		}
