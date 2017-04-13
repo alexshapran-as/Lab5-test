@@ -6,9 +6,7 @@ using namespace std;
 class BinarySearchTree
 {
 
-public:
-	BinarySearchTree *left; 
-	BinarySearchTree *right; 
+public: 
 	BinarySearchTree *parent; 
 	unsigned int data;
 	int Add(unsigned int new_data, BinarySearchTree *&root);
