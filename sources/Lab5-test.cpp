@@ -40,7 +40,6 @@ int Deletion(int check3, BinarySearchTree *root)
 	if (!root) return check3;
 	
 	cout << endl << endl << "Type the node you want to delete: "; 
-	cin >> number;
 
 	if (root->data == check3) 
 		{ 
